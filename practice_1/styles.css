@@ -74,7 +74,7 @@ section{
 .bg{
     position: relative;
     width: 100%;
-    background-attachment: fixed; /* this fix the abckgriund image and all other elements flow on it smoothely */
+    background-attachment: fixed; /* this fix the background image and all other elements flow on it smoothely */
     height: 500px;
     background-position:center;
     background-size: cover;
@@ -91,5 +91,10 @@ color: black;
 font-size: 3.5rem;
 font-weight: 600;
 font-family: 'Roboto', sans-serif;
-
+}
+.desc:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    transition: .3s;
 }
